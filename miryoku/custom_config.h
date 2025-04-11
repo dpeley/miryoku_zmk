@@ -129,10 +129,10 @@ XXX           K10           K11           K12           K13           K14       
 XXX           K20           K21           K22           K23           K24                 K25           K26           K27           K28           K29           XXX           \
                                           K32           K33           K34                 K35           K36           K37
 
-#endif
 
-/*
-Create a new file named "miryoku_zmk/conf/corne.conf" and input the following (without the slashes):
+
+
+# Create a new file named "miryoku_zmk/conf/corne.conf" and input the following (without the slashes):
 
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
@@ -161,4 +161,6 @@ CONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y
 # CONFIG_ZMK_WIDGET_OUTPUT_STATUS=y 
 #show the current output (USB/BLE)
 # CONFIG_ZMK_WIDGET_WPM_STATUS=n
-*/
+
+
+#endif
